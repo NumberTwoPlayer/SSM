@@ -1,0 +1,13 @@
+
+p
+java:S1192."SDefine a constant instead of duplicating this literal "redirect:/employee" 3 times.(ĞÆã»8½åŠæŸ1
+e
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(–£Ïì8¢’†ĞŸ1
+l
+java:S4488)"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ƒ‰„úÿÿÿÿ8¨’†ĞŸ1
+j
+java:S44881"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(£‹ßØÿÿÿÿÿ8ª’†ĞŸ1
+j
+java:S4488;"HReplace "@RequestMapping(method = RequestMethod.PUT)" with "@PutMapping"(ÓğŞ±ùÿÿÿÿ8¯’†ĞŸ1
+p
+java:S4488B"NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(óã…Øşÿÿÿÿ8É¥ŒæŸ1

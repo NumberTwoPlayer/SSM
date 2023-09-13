@@ -1,0 +1,12 @@
+
+e
+java:S11923"HDefine a constant instead of duplicating this literal "success" 3 times.(ùØ8«”Í1
+]
+java:S1854/";Remove this useless assignment to local variable "session".(ûİÙ¹şÿÿÿÿ8–âƒÍ1
+N
+java:S1481/",Remove this unused "session" local variable.(ûİÙ¹şÿÿÿÿ8˜âƒÍ1
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(Ûâ¢8›âƒÍ1
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(ŸĞ†øÿÿÿÿ8½”Í1
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(È×Ó8¼”Í1
+U	java:S106A"9Replace this use of System.out or System.err by a logger.( ãê¼8¦âƒÍ1
+U	java:S106G"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ8¿”Í1

@@ -1,0 +1,8 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(° ÄÔþÿÿÿÿ8õ¯„Êœ1
+a
+java:S1128"?Remove this unused import 'org.aspectj.lang.annotation.Aspect'.(˜Ú§®ýÿÿÿÿ8¨ùƒÊœ1
+a
+java:S1128"?Remove this unused import 'org.aspectj.lang.annotation.Before'.(™ Þ¡ÿÿÿÿÿ8ÍÕ„Êœ1
+c
+java:S1128"FRemove this unused import 'org.springframework.core.annotation.Order'.(ÖŽ¨æ8ªùƒÊœ1

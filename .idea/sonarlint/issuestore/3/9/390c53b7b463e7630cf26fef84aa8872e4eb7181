@@ -1,0 +1,13 @@
+
+o
+java:S1192"YDefine a constant instead of duplicating this literal "LoggerAspectï¼Œæ–¹æ³•ï¼š" 4 times.(×Ð¦
+N	java:S106"9Replace this use of System.out or System.err by a logger.(×Ð¦
+S	java:S106"9Replace this use of System.out or System.err by a logger.(«’ýûÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(¼á˜úÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(’ÑáÔ
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(¼¤äªùÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(½Á´ìþÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(«’×Õùÿÿÿÿ
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(¤ïúæ
+T
+java:S1128"8Remove this unused import 'org.aspectj.lang.annotation'.(’ýâ_8ŸŠƒÊœ1

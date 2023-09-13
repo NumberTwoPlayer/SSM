@@ -1,0 +1,11 @@
+
+v
+java:S1192?"YDefine a constant instead of duplicating this literal "LoggerAspectï¼Œæ–¹æ³•ï¼š" 4 times.(×Ğ¦8Û«­°œ1
+U	java:S106?"9Replace this use of System.out or System.err by a logger.(×Ğ¦8ì«­°œ1
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(«’ıûÿÿÿÿ8ï«­°œ1
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(¼á˜úÿÿÿÿ8ñ«­°œ1
+U	java:S106\"9Replace this use of System.out or System.err by a logger.(’ÑáÔ8õ«­°œ1
+Z	java:S106c"9Replace this use of System.out or System.err by a logger.(¼¤äªùÿÿÿÿ8û«­°œ1
+Z	java:S106f"9Replace this use of System.out or System.err by a logger.(½Á´ìşÿÿÿÿ8ÿ«­°œ1
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(«’×Õùÿÿÿÿ8€¬­°œ1
+U	java:S106k"9Replace this use of System.out or System.err by a logger.(¤ïúæ8€¬­°œ1

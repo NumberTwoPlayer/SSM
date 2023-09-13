@@ -1,0 +1,18 @@
+
+i
+java:S1192H"GDefine a constant instead of duplicating this literal "123456" 3 times.(‹üçùÿÿÿÿ8‹şÏÜ 1
+~
+java:S1488K"\Immediately return this expression instead of assigning it to the temporary variable "list".(³ª…ùÿÿÿÿ8ŒşÏÜ 1
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(İŠ–é8ŸşÏÜ 1
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(ç–üñ8¡şÏÜ 1
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(µˆœÑ8£şÏÜ 1
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ8¤şÏÜ 1
+X	java:S125N"<This block of commented-out lines of code should be removed.(¯ñãæ8¨şÏÜ 1
+h
+java:S1128"FRemove this unused import 'org.springframework.stereotype.Repository'.(¦ıÍıüÿÿÿÿ8¨şÏÜ 1
+u
+java:S1128	"SRemove this unused import 'org.springframework.web.bind.annotation.RestController'.(±íş¡şÿÿÿÿ8¨şÏÜ 1
+X
+java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8¨şÏÜ 1
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8¨şÏÜ 1

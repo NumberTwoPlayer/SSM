@@ -1,0 +1,15 @@
+
+n
+java:S11924"QDefine a constant instead of duplicating this literal "testRequestScope" 4 times.(½ö” 8±¯ñ1
+e
+java:S11926"HDefine a constant instead of duplicating this literal "success" 6 times.(Ö§ñÓ8½¯ñ1
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(Ç§ş×üÿÿÿÿ8Ğ¯ñ1
+U	java:S106C"9Replace this use of System.out or System.err by a logger.(Ùí™«8Ò¯ñ1
+Z	java:S106J"9Replace this use of System.out or System.err by a logger.(¦î·Åûÿÿÿÿ8Õ¯ñ1
+^
+java:S1128"<Remove this unused import 'org.springframework.ui.ModelMap'.(ÊÁâºùÿÿÿÿ8×¯ñ1
+]
+java:S1128
+";Remove this unused import 'javax.servlet.http.HttpServlet'.(û÷Å›ÿÿÿÿÿ8Ø¯ñ1
+_
+java:S1128"BRemove this unused import 'javax.servlet.http.HttpServletRequest'.(ø©¹…8ƒº¯ñ1
