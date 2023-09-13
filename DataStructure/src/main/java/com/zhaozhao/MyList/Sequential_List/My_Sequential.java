@@ -1,14 +1,12 @@
-package com.zhaozhao.List.SequentialList;
-
-import com.zhaozhao.List.SequentialList.My_SequentialList;
+package com.zhaozhao.MyList.Sequential_List;
 
 /**
  * @author 刘梹晨
- * @Classname My_ArrayList
+ * @Classname My_Sequential
  * @Date 2023/9/5 9:55
  */
 
-public class My_ArrayList implements My_SequentialList {
+public class My_Sequential implements My_SequentialList {
     //顺序表的存储空间
     private int[] list;
     //顺序表的最后一个元素的位置
@@ -17,7 +15,7 @@ public class My_ArrayList implements My_SequentialList {
     private final Integer MaxSize;
 
     //初始化顺序表
-    public My_ArrayList(Integer Maxsize) {
+    public My_Sequential(Integer Maxsize) {
         list = new int[Maxsize];
         //表示线性表为空
         this.last = -1;
@@ -82,17 +80,90 @@ public class My_ArrayList implements My_SequentialList {
         if(last == list.length || i < 1 || i > MaxSize){
             return false;
         }
-        last++;
+
         for(int j = list.length - 1; j >= i; j--){
             list[j] = list[j - 1];
         }
         list[i - 1] = i;
+        last++;
         return true;
     }
 
+    /**
+     * 删除单个元素,时间复杂度 O(n)
+     * @param i
+     * @return
+     */
     @Override
     public boolean ListDelete(int i) {
-        return false;
+        if(last == -1){
+            return false;
+        }
+        for(int j = i; j < list.length - 1; j++){
+            if(j == i){
+                list[j - 1] = list[j];
+            }
+            list[j] = list[j + 1];
+        }
+        last--;
+        list[last + 1] = 0;
+        return true;
     }
+
+    /**
+     * 删除多个相同元素，时间复杂度 O(n^2)
+     * @param i
+     * @return
+     */
+    public boolean ListDeleteOf(int i) {
+        if(last == -1){
+            return false;
+        }
+        int j = 0;
+        while (j <= last) {
+            if (list[j] == i) {
+                for (int k = j; k < last; k++) {
+                    list[k] = list[k + 1];
+                }
+                last--;
+                list[last + 1] = 0;
+            } else {
+                j++;
+            }
+        }
+        return true;
+    }
+
+    /**
+     * 删除多个相同元素，时间复杂度 O(n)
+     * @param i
+     * @return
+     */
+    public boolean ListDeleteOfLast(int i){
+        if(last == -1){
+            return false;
+        }
+        int[] newList = new int[list.length];
+        int newLast = 0;
+        for(int j = 0; j <= last; j++){
+            if(list[j] != i){
+                newList[newLast++] = list[j];
+            }
+        }
+        list = newList;
+        last = newLast - 1;
+        return true;
+    }
+
+    //public boolean ListDeleteOfLast_AlphaVersion(int i){
+    //    if(last == -1){
+    //        return false;
+    //    }
+    //    for(int j = 0; j < list.length; j++){
+    //        if(list[j] == i){
+    //            list[j] = list[j + 1];
+    //        }
+    //    }
+    //}
 }
 

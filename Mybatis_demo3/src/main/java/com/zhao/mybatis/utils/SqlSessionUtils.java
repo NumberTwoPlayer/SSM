@@ -1,4 +1,4 @@
-package com.zhaozhao.mybatis.utils;
+package com.zhao.mybatis.utils;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;

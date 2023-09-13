@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="zhaozhao" uuid="92f632a7-5c68-4e93-a7a3-903fcb8c5c06">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:13306/mybatis</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>

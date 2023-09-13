@@ -1,11 +1,13 @@
-package com.zhaozhao.spring.proxy;
+package com.zhaozhao.spring.aop.annotation;
+
+import org.springframework.stereotype.Component;
 
 /**
  * @author 刘梹晨
  * @Classname CalculatorImpl
  * @Date 2023/8/3 13:22
  */
-
+@Component
 public class CalculatorImpl implements Calculator {
 
     @Override

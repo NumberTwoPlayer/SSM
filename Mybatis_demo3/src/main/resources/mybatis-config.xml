@@ -6,9 +6,18 @@
 
     <properties resource="jdbc.properties"/>
 
+    <!--设置Mybatis的全局配置-->
+    <settings>
+    <!--将_自动映射为驼峰，emp_name;empName-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--开启延迟加载-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+    </settings>
+
     <typeAliases>
-        <package name="com.zhaozhao.mybatis.pojo"/>
+        <package name="com.zhao.mybatis.pojo"/>
     </typeAliases>
+
 
     <environments default="development">
         <environment id="development">
@@ -22,6 +31,6 @@
         </environment>
     </environments>
     <mappers>
-        <package name="com.zhaozhao.mybatis.mapper"/>
+        <package name="com.zhao.mybatis.mapper"/>
     </mappers>
 </configuration>

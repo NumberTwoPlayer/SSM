@@ -3,4 +3,17 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean id="usercontroller" class="com.zhaozhao.spring.controller.Usercontroller" autowire="byName">
+<!--        <property name="userService" ref="userService"/>-->
+    </bean>
+
+    <bean id="userServiceImpl" class="com.zhaozhao.spring.service.impl.UserServiceImpl" autowire="byName">
+<!--        <property name="userDao" ref="userDao"/>-->
+    </bean>
+    <bean id="Service" class="com.zhaozhao.spring.service.impl.UserServiceImpl">
+    </bean>
+
+    <bean id="userDaoImpl" class="com.zhaozhao.spring.dao.impl.UserDaolmpl"></bean>
+
+    <bean id="Dao" class="com.zhaozhao.spring.dao.impl.UserDaolmpl"></bean>
 </beans>

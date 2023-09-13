@@ -30,7 +30,8 @@
     <!--配置事务通知-->
     <tx:advice id="tx" transaction-manager="transactionManager">
         <tx:attributes>
-            <tx:method name="buyBook" />
+            <tx:method name="buyBooks" />
+            <tx:method name="*" />
         </tx:attributes>
     </tx:advice>
 
@@ -38,12 +39,5 @@
         <aop:advisor advice-ref="tx" pointcut="execution(* com.zhaozhao.spring.service.impl.*.*(..))"/>
     </aop:config>
 
-    <!--
-        开启事务的注解驱动
-        将使用@Transactional注解所标识的方法或类中所有的方法使用事务进行管理
-        transaction-manager属性设置事务管理器的id
-        若事务管理器的bean的id默认为transactionManager，则该属性可以不写
-     -->
-<!--    <tx:annotation-driven transaction-manager="transactionManager"/>-->
 
 </beans>

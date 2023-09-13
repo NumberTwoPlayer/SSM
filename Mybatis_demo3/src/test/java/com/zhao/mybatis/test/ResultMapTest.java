@@ -1,3 +1,5 @@
+package com.zhao.mybatis.test;
+
 import com.zhao.mybatis.mapper.DeptMapper;
 import com.zhao.mybatis.mapper.EmpMapper;
 import com.zhao.mybatis.pojo.Dept;
@@ -10,7 +12,7 @@ import java.util.List;
 
 /**
  * @author 刘梹晨
- * @Classname ResultMapTest
+ * @Classname com.zhao.mybatis.test.ResultMapTest
  * @Date 2023/7/27 13:53
  */
 

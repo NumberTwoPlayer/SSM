@@ -3,4 +3,12 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean id="user" class="com.zhaozhao.spring.pojo.User" init-method="initMethod" destroy-method="destroyMethod">
+        <property name="id" value="1"/>
+        <property name="username" value="chen"/>
+        <property name="password" value="123"/>
+        <property name="age" value="21"/>
+    </bean>
+
+    <bean id="MyBeanPostProcessor" class="com.zhaozhao.spring.process.MyBeanPostProcessor"/>
 </beans>

@@ -5,11 +5,11 @@ import org.junit.Test;
 
 /**
  * @author 刘梹晨
- * @Classname List_Test
+ * @Classname SequentialList_Test
  * @Date 2023/9/5 10:44
  */
 
-public class List_Test {
+public class SequentialList_Test {
     @Test
     public void test_SequentialList(){
         My_Sequential list = new My_Sequential(10);

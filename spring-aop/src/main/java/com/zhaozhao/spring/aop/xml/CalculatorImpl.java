@@ -1,4 +1,4 @@
-package com.zhaozhao.spring.aop.annotation;
+package com.zhaozhao.spring.aop.xml;
 
 import org.springframework.stereotype.Component;
 

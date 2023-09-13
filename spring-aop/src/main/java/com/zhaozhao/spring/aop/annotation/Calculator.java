@@ -1,4 +1,4 @@
-package com.zhaozhao.spring.proxy;
+package com.zhaozhao.spring.aop.annotation;
 
 public interface Calculator {
     int add(int i, int j);

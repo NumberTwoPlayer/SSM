@@ -3,36 +3,39 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>com.Mybatis.bingchen</groupId>
-        <artifactId>Mybatis</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
 
-    <groupId>com.zhaozhao.spring</groupId>
-    <artifactId>spring_helloworld</artifactId>
-    <packaging>jar</packaging>
+
+    <groupId>com.Mybatis.bingchen</groupId>
+    <artifactId>SSM_DataSructure</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+
+    <modules>
+        <module>Mybatis_demo1</module>
+        <module>Mybatis_demo2</module>
+        <module>Mybatis_demo3</module>
+        <module>Mybatis_MBG</module>
+        <module>spring_helloworld</module>
+        <module>spring_ioc_xml</module>
+        <module>spring_ioc_annotation</module>
+        <module>spring-proxy</module>
+        <module>spring-aop</module>
+        <module>spring-transaction</module>
+        <module>spring_mvc_helloworld</module>
+        <module>spring_mvc_demo</module>
+        <module>spring_mvc_rest</module>
+        <module>spring_mvc_ajax</module>
+        <module>spring_mvc_extension</module>
+        <module>DataStructure</module>
+    </modules>
+
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <dependencies>
-        <!-- 基于Maven依赖传递性，导入spring-context依赖即可导入当前所需所有jar包 -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>5.3.1</version>
-        </dependency>
-        <!-- junit测试 -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
 
 
 </project>

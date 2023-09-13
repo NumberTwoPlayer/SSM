@@ -1,2 +1,4 @@
-package com.zhaozhao.spring.pojo;public interface Person {
+package com.zhaozhao.spring.pojo;
+
+public interface Person {
 }
