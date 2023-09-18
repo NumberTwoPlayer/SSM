@@ -4,6 +4,8 @@ package com.zhaozhao.Sort;
  * @author 刘梹晨
  * @Classname Quick_Sort
  * @Date 2023/9/7 11:41
+ *
+ * 关于快速排序的实现代码
  */
 
 public class Quick_Sort {

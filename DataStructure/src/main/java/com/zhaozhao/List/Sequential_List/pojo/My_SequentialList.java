@@ -1,4 +1,4 @@
-package com.zhaozhao.MyList.Sequential_List;
+package com.zhaozhao.List.Sequential_List.pojo;
 
 public interface My_SequentialList {
 

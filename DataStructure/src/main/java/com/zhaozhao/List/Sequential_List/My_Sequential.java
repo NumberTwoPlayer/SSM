@@ -1,4 +1,6 @@
-package com.zhaozhao.MyList.Sequential_List;
+package com.zhaozhao.List.Sequential_List;
+
+import com.zhaozhao.List.Sequential_List.pojo.My_SequentialList;
 
 /**
  * @author 刘梹晨
@@ -155,15 +157,5 @@ public class My_Sequential implements My_SequentialList {
         return true;
     }
 
-    //public boolean ListDeleteOfLast_AlphaVersion(int i){
-    //    if(last == -1){
-    //        return false;
-    //    }
-    //    for(int j = 0; j < list.length; j++){
-    //        if(list[j] == i){
-    //            list[j] = list[j + 1];
-    //        }
-    //    }
-    //}
 }
 

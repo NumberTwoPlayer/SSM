@@ -1,6 +1,6 @@
-package com.zhaozhao.MyList_Test;
+package com.zhaozhao.List_Test;
 
-import com.zhaozhao.MyList.Sequential_List.My_Sequential;
+import com.zhaozhao.List.Sequential_List.My_Sequential;
 import org.junit.Test;
 
 /**

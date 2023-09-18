@@ -1,4 +1,4 @@
-package com.zhaozhao.My_Sort;
+package com.zhaozhao.Sort_Test;
 
 import com.zhaozhao.Sort.Quick_Sort;
 import org.junit.Test;
