@@ -1,6 +1,6 @@
 package com.zhaozhao.List.Linked_List.pojo;
 
-import com.zhaozhao.List.Linked_List.node.LinkedByNode;
+import com.zhaozhao.List.Linked_List.node.LinkedListByNode;
 
 /**
  * @author 刘梹晨
@@ -43,7 +43,7 @@ public interface LinkedList {
      *
      * @return：若单链表中没有第i个结点，则返回false，否则为true
      */
-    public LinkedByNode GetElem(int i);
+    public LinkedListByNode GetElem(int i);
 
     /**
      * 按元素值查找：LocateElem(L,e)
@@ -51,7 +51,7 @@ public interface LinkedList {
      * @param obj：查找的元素值
      * @return 若存在返回其逻辑序号，否则返回0
      */
-    public LinkedByNode LocateElem(Object obj);
+    public LinkedListByNode LocateElem(Object obj);
 
     /**
      * 插入数据元素：ListInsert(&L,i,e)
@@ -61,7 +61,7 @@ public interface LinkedList {
      * @return  返回插入成功的链表
      * @throws Exception    抛出异常
      */
-    public LinkedByNode ListInsert(int i, Object data) throws Exception;
+    public LinkedListByNode ListInsert(int i, Object data) throws Exception;
 
     /**
      * 删除数据元素：ListDelete(&L,i,&e)
@@ -70,5 +70,5 @@ public interface LinkedList {
      * @return 返回删除成功的链表
      * @throws Exception    抛出异常
      */
-    public LinkedByNode ListDelete(int i) throws Exception;
+    public LinkedListByNode ListDelete(int i) throws Exception;
 }

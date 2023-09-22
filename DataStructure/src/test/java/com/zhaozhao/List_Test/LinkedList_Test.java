@@ -1,7 +1,7 @@
 package com.zhaozhao.List_Test;
 
 import com.zhaozhao.List.Linked_List.My_LinkedList;
-import com.zhaozhao.List.Linked_List.node.LinkedByNode;
+import com.zhaozhao.List.Linked_List.node.LinkedListByNode;
 import org.junit.Test;
 
 /**
@@ -33,17 +33,17 @@ public class LinkedList_Test {
         System.out.println(l.ListEmpty() + "\t" + l.Empty());
 
         System.out.println("***测试序号求元素***");
-        LinkedByNode node1 = l.GetElem(1);
+        LinkedListByNode node1 = l.GetElem(1);
         System.out.println(node1.getData());
-        LinkedByNode node2 = l.GetElem(2);
+        LinkedListByNode node2 = l.GetElem(2);
         System.out.println(node2.getData());
-        LinkedByNode node3 = l.GetElem(3);
+        LinkedListByNode node3 = l.GetElem(3);
         System.out.println(node3.getData());
-        LinkedByNode node4 = l.GetElem(4);
+        LinkedListByNode node4 = l.GetElem(4);
         System.out.println(node4.getData());
 
         System.out.println("***测试值查找***");
-        LinkedByNode byNode = l.LocateElem("a");
+        LinkedListByNode byNode = l.LocateElem("a");
         System.out.println(byNode.getData());
 
         System.out.println("***测试删除元素***");

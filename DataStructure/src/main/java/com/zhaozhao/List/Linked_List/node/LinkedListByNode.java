@@ -2,24 +2,24 @@ package com.zhaozhao.List.Linked_List.node;
 
 /**
  * @author 刘梹晨
- * @Classname LinkedByNode
+ * @Classname LinkedListByNode
  * @Date 2023/9/12 8:46
  */
 
-public class LinkedByNode {
+public class LinkedListByNode {
     private Object data;//结点值
-    private LinkedByNode next;//后继结点引用
+    private LinkedListByNode next;//后继结点引用
 
     //无参构造方法
-    public LinkedByNode() {
+    public LinkedListByNode() {
     }
 
     //有参构造方法
-    public LinkedByNode(Object data, LinkedByNode next) {
+    public LinkedListByNode(Object data, LinkedListByNode next) {
         this.data = data;
         this.next = next;
     }
-    public LinkedByNode(char data) {
+    public LinkedListByNode(char data) {
         this.data = data;
         this.next = null;
     }
@@ -32,11 +32,11 @@ public class LinkedByNode {
         this.data = data;
     }
 
-    public LinkedByNode getNext() {
+    public LinkedListByNode getNext() {
         return next;
     }
 
-    public void setNext(LinkedByNode next) {
+    public void setNext(LinkedListByNode next) {
         this.next = next;
     }
 }
